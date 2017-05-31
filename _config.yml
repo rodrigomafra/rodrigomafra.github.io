@@ -17,7 +17,7 @@ title: Rodrigo Mafra - Experienced Designer with 8 years on field, based on Belo
 email: contato@mafra.me
 description: This website was made to present all the work and ideas of Rodrigo Mafra
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://mafra.me/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rmafra
 github_username:  rodrigomafra
 
