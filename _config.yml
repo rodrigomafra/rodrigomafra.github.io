@@ -14,10 +14,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Rodrigo Mafra - Experienced Designer with 8 years on field, based on Belo Horizonte, Brazil, currently working @ Unisys Corp
+header: Rodrigo Mafra
 email: contato@mafra.me
 description: This website was made to present all the work and ideas of Rodrigo Mafra
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://mafra.me/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rmafra
 github_username:  rodrigomafra
 
