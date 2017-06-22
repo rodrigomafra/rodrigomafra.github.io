@@ -114,7 +114,23 @@ a {
     .username {
       text-decoration: underline;
     }
+
   }
+}
+
+.social-media-list li, .contact-list li {
+  display: inline;
+}
+
+.contact-list li a:after {
+  content: '\00B7';
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.contact-list li:last-child a:after {
+  content: '';
+  padding: 0;
 }
 
 

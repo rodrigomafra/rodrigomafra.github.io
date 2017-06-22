@@ -14,13 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Rodrigo Mafra - UX Designer based in Belo Horizonte, Brazil
+author: Rodrigo Mafra
 header: Awesome Folio
 email: contato@mafra.me
-description: Rodrigo Mafra is a UX Designer based in Belo Horizonte, who advocates frictionless experiences for web and mobile. He is a movie addict, gamer and a writer.
+description: Rodrigo Mafra is a UX Designer based in Belo Horizonte, who advocates frictionless experiences for web and mobile. He's a movie addict, gamer and a writer.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rmafra
 github_username:  rodrigomafra
+linkedin_username: rodrigomafra
 
 # Build settings
 markdown: kramdown
