@@ -15,11 +15,16 @@ $title-line-height: 1.5 !default;
 
 $spacing-unit:     24px !default;
 
-$text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$text-color:       #212121 !default;
+$text-color-light: #FFFFFF !default;
+$background-color: #FAFAFA !default;
+$brand-color:      #4CAF50 !default;
+$brand-color-dark: #388E3C !default;
+$brand-color-light:#C8E6C9 !default;
+$accent-color:     #FFC107 !default;
+$secondary-text-color: #757575 !default;
 
-$grey-color:       #828282 !default;
+$grey-color:       #bdbdbd !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
 $grey-color-dark:  darken($grey-color, 25%) !default;
 
@@ -48,7 +53,5 @@ $on-laptop:        800px !default;
 
 // Import partials.
 @import
-  "minima/base",
-  "minima/layout",
-  "minima/syntax-highlighting"
+  "minima/main"
 ;

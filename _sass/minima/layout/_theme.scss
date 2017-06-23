@@ -5,6 +5,7 @@
   // border-top: 5px solid $grey-color-dark;
   border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
+  background-color: $brand-color;
 
   // Positioning context for the mobile navigation icon
   position: relative;
@@ -22,6 +23,10 @@
   &:visited {
     color: $grey-color-dark;
   }
+  h1 {
+    color: $text-color-light;
+    margin-bottom: 0;
+  }
 }
 
 .site-nav {
@@ -37,7 +42,7 @@
   }
 
   .page-link {
-    color: $text-color;
+    color: $text-color-light;
     line-height: $base-line-height;
 
     // Gaps between nav items, but not on the last one
