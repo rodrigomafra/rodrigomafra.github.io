@@ -24,6 +24,9 @@ twitter_username: rmafra
 github_username:  rodrigomafra
 linkedin_username: rodrigomafra
 
+# Google Analytics
+google_analytics: UA-101595801-1
+
 # Build settings
 markdown: kramdown
 theme: minima
