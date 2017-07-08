@@ -10,19 +10,23 @@ layout: default
 
   <ul class="post-list">
     {% for post in site.posts %}
-      <li>
-        <div class="post-thumb">
-          <img width="100%" src="{{site.baseurl}}/images/{{post.img}}" alt="{{post.title}}">
-        </div>
-        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <li class="light">
+        <div class="post-wrapper">
+          <div class="post-thumb">
+            <img width="100%" src="{{site.baseurl}}/images/{{post.thumb}}" alt="{{post.title}}">
+          </div>
+          {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+          <div class="post-desc">
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
-        </h2>
-        <p>
-          {{ post.excerpt | truncate: 140 }}
-        </p>
+            <h2>
+              <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+            </h2>
+            <p>
+              {{ post.description }}
+            </p>
+          </div>
+        </div>
       </li>
     {% endfor %}
   </ul>
