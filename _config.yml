@@ -13,11 +13,11 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Rodrigo Mafra - Product Designer based in Blumenau, Brazil
+title: Rodrigo Mafra - Designer
 author: Rodrigo Mafra
 header: Awesome Folio (TBC)
 email: contato@mafra.me
-description: Hey, I’m Rodrigo Mafra a designer based on Blumenau, SC, Brazil creating visual experiences through human centered-design
+description: Product Designer based on Blumenau, SC, Brazil creating experiences through human centered-design
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://mafra.me" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rmafra
