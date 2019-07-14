@@ -8,7 +8,7 @@
 #
 source:         _app
 destination:    _site
-timezone:       America/Los_Angeles
+timezone:       America/Sao_Paulo
 permalink:      /:title.html
 markdown:       kramdown
 highlighter:    rouge
@@ -66,7 +66,7 @@ dev:            false
 # Site name
 #
 # Default:      Almace Scaffolding
-name:           Almace Scaffolding
+name:           Product Design Portifolio of Rodrigo Mafra
 
 # Site short name
 #
@@ -89,7 +89,7 @@ name_short:     AMSF
 # Will be used in the document meta and Atom feed subtitle
 #
 # Default:      Super-fast Jekyll framework
-description:    Super-fast Jekyll framework
+description:    Product Designer based on Joinville, SC, Brazil currently designing new ways to help small business owners achieve success
 
 # Base URL
 #
@@ -99,7 +99,7 @@ description:    Super-fast Jekyll framework
 # `/my-project`, without trailing slash.
 #
 # Default:      ""
-baseurl:        /lab/amsf
+baseurl:        /new-portifolio
 
 # Flatten base
 #
@@ -129,7 +129,7 @@ feed:           /feed.xml
 # URLs for these fields
 #
 # Default:      https://sparanoid.com
-url:            https://sparanoid.com
+url:            https://mafra.me/
 
 # Media assets URL
 #
