@@ -8,7 +8,7 @@
 #
 source:         _app
 destination:    _site
-timezone:       America/Sao_Paulo
+timezone:       America/Los_Angeles
 permalink:      /:title.html
 markdown:       kramdown
 highlighter:    rouge
@@ -99,7 +99,7 @@ description:    Super-fast Jekyll framework
 # `/my-project`, without trailing slash.
 #
 # Default:      ""
-baseurl:        ""
+baseurl:        /lab/amsf
 
 # Flatten base
 #
