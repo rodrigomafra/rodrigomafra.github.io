@@ -11,7 +11,12 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.8.6"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "bulma-clean-theme"
+gem "minima", "~> 2.0"
+
+# Grid system goes here
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+gem 'jquery-rails'
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
