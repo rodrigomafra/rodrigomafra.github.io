@@ -77,13 +77,12 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #47506B;
+  color: #70E0EE;
   text-decoration: none; }
   a:visited {
-    color: #282e3d; }
+    color: #70E0EE; }
   a:hover {
-    color: #47506B;
-    text-decoration: underline; }
+    color: #2cd1e6; }
   .social-media-list a:hover {
     text-decoration: none; }
     .social-media-list a:hover .username {
@@ -93,8 +92,8 @@ a {
  * Blockquotes
  */
 blockquote {
-  color: #828282;
-  border-left: 4px solid #e8e8e8;
+  color: #4F5978;
+  border-left: 4px solid #bec4d5;
   padding-left: 15px;
   font-size: 18px;
   letter-spacing: -1px;
@@ -108,7 +107,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #e8e8e8;
+  border: 1px solid #bec4d5;
   border-radius: 3px;
   background-color: #eef; }
 
@@ -167,7 +166,7 @@ pre {
   width: 16px;
   height: 16px;
   display: inline-block;
-  fill: #828282;
+  fill: #4F5978;
   vertical-align: text-top; }
 
 .social-media-list li + li {
@@ -182,17 +181,17 @@ table {
   text-align: left;
   color: #6f7b9f;
   border-collapse: collapse;
-  border: 1px solid #e8e8e8; }
+  border: 1px solid #bec4d5; }
   table tr:nth-child(even) {
-    background-color: #f7f7f7; }
+    background-color: #d1d5e1; }
   table th, table td {
     padding: 10px 15px; }
   table th {
-    background-color: #f0f0f0;
-    border: 1px solid #dedede;
-    border-bottom-color: #c9c9c9; }
+    background-color: #c8ccdb;
+    border: 1px solid #b2b9cc;
+    border-bottom-color: #9aa2bc; }
   table td {
-    border: 1px solid #e8e8e8; }
+    border: 1px solid #bec4d5; }
 
 /**
 * Spacing
@@ -251,7 +250,7 @@ table {
   float: left;
   align-items: center; }
   .site-title, .site-title:visited {
-    color: #424242; }
+    color: #1c202b; }
 
 .site-nav {
   float: right;
@@ -289,7 +288,7 @@ table {
         padding-top: 10px;
         text-align: center; }
         .site-nav .menu-icon > svg {
-          fill: #424242; }
+          fill: #1c202b; }
       .site-nav input ~ .trigger {
         clear: both;
         display: none; }
@@ -332,7 +331,7 @@ table {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #828282;
+  color: #4F5978;
   margin-left: -15px; }
 
 .footer-col {
@@ -394,7 +393,7 @@ table {
 
 .post-meta {
   font-size: 14px;
-  color: #828282; }
+  color: #4F5978; }
 
 .post-link {
   display: block;
